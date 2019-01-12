@@ -1,0 +1,180 @@
+<mat-tab-group headerPosition="below" backgroundColor="warn" color="primary" mat-align-tabs="center">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <img src="../../assets/recommended.png" class="recommend-icon" style="height:1.5rem;width:1.5rem">
+      Recommended
+    </ng-template>
+    <div style="background-color:#500312">
+      <p class="text-center recom">Recommended</p>
+    </div>
+    <div class="row" style="margin-right:0;margin-left:0;">
+      <div class="col-md-6 text-center" style="padding:0">
+        <mat-card class="example-card">
+          <img src="../../assets/profileImage.jpeg" alt="Photo" class="recom-image">
+          <mat-card-content>
+            <div class='left'>
+              <p>30 &nbsp;|&nbsp;6'0"&nbsp;|&nbsp;80kg</p>
+              <p>IT Engineer | MBA , BTech</p>
+              <p>15-20Lpa | Guragaon</p>
+            </div>
+            <div class='right'>
+              <p>Religion&nbsp;|&nbsp;Caste&nbsp;|&nbsp;Gotra</p>
+              <p>Never Married</p>
+              <p>Non-Mangalik</p>
+              <p>Non-Veg</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-md-6 text-center" style="height:30rem;overflow-y:scroll">
+        <div style="margin-top:2rem;margin-bottom: 2rem">
+          <button type="button" class="btn btn-outline-warning" (click)="scroll('About')" style="margin-right:1rem;border-radius:50px !important">About</button>
+          <button type="button" class="btn btn-outline-warning" (click)="scroll('Familydetails')" style="margin-right:1rem;border-radius:50px !important">Family
+            details</button>
+          <button type="button" class="btn btn-outline-warning" (click)="scroll('preference')" style="margin-right:1rem;border-radius:50px !important">Preferences</button>
+        </div>
+        <mat-card class="about-card" id="About">
+          <mat-card-content>
+            <div class='left'>
+              <p>30 &nbsp;|&nbsp;6'0"&nbsp;|&nbsp;80kg</p>
+              <p>IT Engineer | MBA , BTech</p>
+              <p>15-20Lpa | Guragaon</p>
+            </div>
+            <div class='right'>
+              <p>Religion&nbsp;|&nbsp;Caste&nbsp;|&nbsp;Gotra</p>
+              <p>Never Married</p>
+              <p>Non-Mangalik</p>
+              <p>Non-Veg</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="about-card" id="Familydetails">
+          <mat-card-content>
+            <div class='left'>
+              <p>30 &nbsp;|&nbsp;6'0"&nbsp;|&nbsp;80kg</p>
+              <p>IT Engineer | MBA , BTech</p>
+              <p>15-20Lpa | Guragaon</p>
+            </div>
+            <div class='right'>
+              <p>Religion&nbsp;|&nbsp;Caste&nbsp;|&nbsp;Gotra</p>
+              <p>Never Married</p>
+              <p>Non-Mangalik</p>
+              <p>Non-Veg</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <mat-card class="about-card" id="preference">
+          <mat-card-content>
+            <div class='left'>
+              <p>30 &nbsp;|&nbsp;6'0"&nbsp;|&nbsp;80kg</p>
+              <p>IT Engineer | MBA , BTech</p>
+              <p>15-20Lpa | Guragaon</p>
+            </div>
+            <div class='right'>
+              <p>Religion&nbsp;|&nbsp;Caste&nbsp;|&nbsp;Gotra</p>
+              <p>Never Married</p>
+              <p>Non-Mangalik</p>
+              <p>Non-Veg</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+    <div style="margin-left:40%;margin-bottom:2.1%">
+      <button style="  border: none;
+    background-color: inherit; padding: 14px 28px;">
+        <img src="../../assets/close.png" style="height:4rem;width:4rem">
+      </button>
+      <button style="  border: none;
+        background-color: inherit; padding: 14px 28px;">
+        <img src="../../assets/whatsapp.png" style="height:4rem;width:4rem">
+      </button>
+    </div>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <img src="../../assets/history.png" class="recommend-icon" style="height:1.5rem;width:1.5rem">
+      History
+    </ng-template>
+    <div class="history">
+      <div style="background-color:#500312">
+        <p class="text-center recom">History</p>
+      </div>
+      <div class="container" style="margin-top:1rem">
+        <div class="row ">
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/close.png" class="img-responsive closed">
+            </div>
+            <p>Rejected</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+            <p style="margin-bottom:0;color:grey">30 July'18</p>
+            <div class="circle">
+              <img src="../../assets/whatsapp.png" class="img-responsive closed">
+            </div>
+            <p>Contacted</p>
+          </div>
+          <div class="col text-center">
+              <p style="margin-bottom:0;color:grey">30 July'18</p>
+              <div class="circle">
+                <img src="../../assets/whatsapp.png" class="img-responsive closed">
+              </div>
+              <p>Contacted</p>
+            </div>
+            <div class="col text-center">
+                <p style="margin-bottom:0;color:grey">30 July'18</p>
+                <div class="circle">
+                  <img src="../../assets/whatsapp.png" class="img-responsive closed">
+                </div>
+                <p>Contacted</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <img src="../../assets/profile.png" class="recommend-icon" style="height:1.5rem;width:1.5rem">
+      Profile
+    </ng-template>
+    <h1>Terrible sushi restaurants</h1>
+    <p>...</p>
+  </mat-tab>
+</mat-tab-group>

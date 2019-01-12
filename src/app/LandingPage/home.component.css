@@ -1,0 +1,235 @@
+.om {
+    position: relative;
+    height: 11rem;
+    bottom: 4rem
+}
+/* .pink {
+    height: 15rem;
+} */
+.capt{
+    color:white;font-size:2em;margin-bottom:0;font-weight: bolder
+}
+.banner {
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bot{
+    padding-bottom: 45px
+}
+.whats {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+}
+
+.sliding {
+    width: 100%;
+    height: 45rem;
+}
+.deepak{
+    height:20rem
+}
+.left-arrow {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(230, 27, 145);
+    position: relative;
+    top: 9rem;
+    left: -3rem
+}
+
+.buttonCenter {
+    margin-left: 25%;
+    margin-top: 10%
+}
+.right-arrow {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(230, 27, 145);
+    position: relative;
+    top: -4rem;
+    left: 4rem
+}
+
+.quote-text {
+    color: white;
+    font-weight: bolder
+}
+
+.quote {
+    padding-top: 8%;
+    padding-left: 15%;
+}
+
+.whatsapp {
+    background: url(../../assets/whatsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map-banner {
+    background: url(https://wallpapercave.com/wp/2ujUKnj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team {
+    background-color: rgb(236, 213, 186);
+    text-align: center
+}
+
+.clients {
+    background-color: blueviolet;
+    height: 50%
+}
+
+.client-image {
+    height: 10rem !important;
+    margin-bottom: 1rem
+}
+
+.address {
+    background: url(../../assets/address.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50%
+}
+
+.contact {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 30%;
+    background-color: white
+}
+
+.purple {
+    background-color: #46132B;
+}
+
+.semi-circle {
+    margin-left:45%;
+    height: 45px;
+    width: 90px;
+    background: url(https://wallpapercave.com/wp/2ujUKnj.jpg);
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px
+}
+.diya{
+    height:20em;
+    position: absolute;
+    right: 0;
+}
+@media only screen and (max-width: 768px) {
+    .bot{
+        padding-bottom: 0em
+    }
+    .indicator{
+        top:19.25rem !important
+    }
+    .review-indicators{
+        top:25rem !important
+    }
+    .capt{
+        color:White;Font-weight:bold;font-size:1em;margin-bottom:0;vertical-align: middle
+    }
+    .diya{
+        height:5em;
+        position: absolute;
+        right: 0;
+    }
+    .caption{
+       height: 20%;width: 70%;
+    }
+    .carousel-caption{
+        padding-top:0 !important
+    }
+    .pink {
+        height: 22rem;
+    }
+
+    .buttonCenter {
+        margin-left: 25%;
+        margin-top: 0%
+    }
+
+    .sliding {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .whatsapp {
+        background: url(../../assets/whatsbg.jpg);
+    }
+    .match {
+        text-align: center;
+        padding-top: 1em
+    }
+
+    .map-banner {
+        background: url(https://wallpapercave.com/wp/2ujUKnj.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .team {
+        background-color: rgb(236, 213, 186);
+    }
+    .semi-circle {
+        margin-left:45%;
+        height:1em;
+        width: 2em;
+        background: url(https://wallpapercave.com/wp/2ujUKnj.jpg);
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 90px
+    }
+
+    .left-arrow {
+        height: 3rem;
+        width: 3rem;
+        background-color: rgb(230, 27, 145);
+        position: relative;
+        top: 12rem;
+        left: -3rem
+    }
+
+    .right-arrow {
+        height: 3rem;
+        width: 3rem;
+        background-color: rgb(230, 27, 145);
+        position: relative;
+        top: -1rem;
+        left: 4rem
+    }
+
+    .om {
+        position: relative;
+        height: 11rem;
+        bottom: 4rem;
+        margin-left: 25%
+    }
+
+    .center {
+        font-size: 1.4rem !important;
+    }
+    .mobile{
+        margin-left:24%
+    }
+    .text-left{
+        text-align: center !important
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* .diya{
+        height:14em;
+        position: absolute;
+        right: 0;
+    } */
+}
+
+@media only screen and (max-width: 1280px) {
+}

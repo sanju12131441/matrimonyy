@@ -1,0 +1,132 @@
+ <style>
+   mat-card{
+     padding:0;
+     margin:0;
+   }
+ mat-card-header{
+   font-weight: bolder;
+   text-align: center!important;
+   background-color: blue;
+   color:white
+ }
+ </style>
+ <div class="container text-right">
+      <span style="color:brown">matches@hansmatrimony.com &nbsp;&nbsp;Contact : 123456789 | 12345678</span>
+    </div>
+    <div style="background-color:rgba(126, 42, 42,0.6)" >
+      <nav style="background-color:transparent" class="navbar container navbar-light ">
+          <a style="opacity:1!important;" class="navbar-brand" href="#">
+          <b>Hans Matrimony</b>
+          </a>
+        </nav>
+    </div>
+      <section class="pricing-table">
+          <div class="container">
+              <div class="block-heading">
+                <h2>Pricing Table</h2>
+              </div>
+              <div class="row justify-content-md-center">
+                  <div style="padding:20px" class="col-md-5 col-lg-4">
+                      <div class="item">
+                          <div class="heading">
+                              <h3>BASIC</h3>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <div class="features">
+                              <h4><span class="feature">Full Support</span> : <span class="value">No</span></h4>
+                              <h4><span class="feature">Duration</span> : <span class="value">30 Days</span></h4>
+                              <h4><span class="feature">Storage</span> : <span class="value">10GB</span></h4>
+                          </div>
+                          <div class="price">
+                              <h4>$25</h4>
+                          </div>
+                          <button (click)="pay(5100,'test')"  class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                          <button (click)="pay(5100,'live')"  class="btn btn-block btn-outline-success" type="submit">BUY NOW</button>
+                     
+                      </div>
+                  </div>
+                  <div class="col-md-5 col-lg-4">
+                      <div class="item">
+                          <div class="ribbon">Best Value</div>
+                          <div class="heading">
+                              <h3>PRO</h3>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <div class="features">
+                              <h4><span class="feature">Full Support</span> : <span class="value">Yes</span></h4>
+                              <h4><span class="feature">Duration</span> : <span class="value">60 Days</span></h4>
+                              <h4><span class="feature">Storage</span> : <span class="value">50GB</span></h4>
+                          </div>
+                          <div class="price">
+                              <h4>$50</h4>
+                          </div>
+                          <button (click)="pay(7100,'test')"  class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                          <button (click)="pay(7100,'live')"  class="btn btn-block btn-outline-success" type="submit">BUY NOW</button>
+                     
+                     </div>
+                  </div>
+                  <div  style="padding:20px" class="col-md-5 col-lg-4">
+                      <div class="item">
+                          <div class="heading">
+                              <h3>PREMIUM</h3>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <div class="features">
+                              <h4><span class="feature">Full Support</span> : <span class="value">Yes</span></h4>
+                              <h4><span class="feature">Duration</span> : <span class="value">120 Days</span></h4>
+                              <h4><span class="feature">Storage</span> : <span class="value">150GB</span></h4>
+                          </div>
+                          <div class="price">
+                              <h4>$150</h4>
+                          </div>
+                          <button (click)="pay(11000,'test')" class="btn btn-block btn-primary" type="submit">BUY NOW</button>
+                          <button (click)="pay(11000,'live')" class="btn btn-block btn-success" type="submit">BUY NOW</button>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+        <footer style="background-color: rgb(92, 38, 38); color:white;" class="footer text-center">
+            <div class="container">
+              <br/>
+              <div class="row">
+                <div class="col-md-4">
+                  <br/>
+                  <h4>Contact</h4>
+                <p>
+                  matched@hansmatrimony.com<br/>
+                  +91-xxx-xxx-xxxx<br/>
+                  +91-xxx-xxx-xxxx
+                </p>              </div>
+                <div class="col-md-4">
+                    <br/>
+                    <h4>Follow Us</h4>
+                    <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+                  </div>
+                  <div class="col-md-4">
+                      <br/>
+                      <h4>Policy Info</h4>
+                      <p>
+                        Privacy Policy<br/>
+                        Terms of Use<br/>
+                        Cancellation & return<br/>
+                        FAQ<br/>
+                      </p>    
+                    </div>
+              </div>
+            </div>
+          </footer>    
+<!-- <div class="text-center">
+  <h1>Blue are for testing and red are live</h1>
+</div>
+<button mat-raised-button  color="primary">Limited Plan</button>
+<button mat-raised-button (click)="pay(5100,'live')" color="accent">Limited Plan</button>
+<button mat-raised-button (click)="pay(7100,'test')" color="primary">Supreme Plan</button>
+<button mat-raised-button  color="accent">Supreme Plan</button>
+<button mat-raised-button (click)="pay(11000,'test')" color="primary">Premium Plan</button>
+<button mat-raised-button (click)="pay(11000,'live')" color="accent">Premium Plan</button> -->

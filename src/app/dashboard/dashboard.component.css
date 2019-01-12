@@ -1,0 +1,98 @@
+.recom {
+    color: orange;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 26px
+}
+
+.recommend-icon {
+    margin-right: 1rem
+}
+
+::ng-deep .mat-tab-label {
+    min-width: 420px !important;
+}
+
+.mat-success {
+    background-color: red !important
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.example-card {
+    text-align: center;
+    margin-left:25%;
+    margin-top: 2rem;
+    height: 30rem;
+}
+.about-card {
+    text-align: center;
+    height: 300px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 10%;
+}
+.circle{
+    height:3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left:30%;
+}
+.closed{
+    height:1rem;width:1rem;
+    position: relative;
+    top:2rem;
+    float: right;
+}
+.history{
+    min-height: 80vh;
+}
+.recom-image {
+    width: 30%;
+}
+
+::ng-deep .mat-tab-label .mat-tab-label-content {
+    font-weight: bolder !important;
+}
+
+::ng-deep .mat-tab-group.mat-background-warn .mat-tab-header,
+.mat-tab-group.mat-background-warn .mat-tab-links,
+.mat-tab-nav-bar.mat-background-warn .mat-tab-header,
+.mat-tab-nav-bar.mat-background-warn .mat-tab-links {
+    background-color: #500312 !important;
+}
+
+@media only screen and (max-width:768px) {
+    .recom {
+        color: orange;
+        margin-bottom: 0;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        font-size: 22px
+    }
+
+    ::ng-deep .mat-tab-label {
+        min-width: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important
+    }
+
+    .recommend-icon {
+        margin-right: 0.5rem
+    }
+    .circle{
+        height:3rem;
+        width: 3rem;
+        border-radius: 50%;
+        background-color: grey;
+        margin-left:25%;
+    }
+}

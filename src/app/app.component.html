@@ -1,0 +1,51 @@
+<!-- Navbar start -->
+<header>
+    <div class="card" style="max-height:40px;
+        border-radius:0 !important;background-color: #7b1429" *ngIf="routerUrl != '/hanswebapp/dashboard'">
+        <p class="contact-details text-right" style="color:white;font-size:1rem;">support@hans.com +91934343435</p>
+    </div>
+    <nav class="navbar navbar-expand-md" style="background-color:#500312;padding-bottom: 0;padding-top: 0">
+        <a class="navbar-brand" href="#" style="color:white;margin-right:0.1rem;padding-top:0;padding-bottom: 0"><img
+                src="../../assets/Icons/hLogo.png" style="height:4rem"></a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            </li>
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+            </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+            <button class="btn btn-warning btn-responsive" type="submit" (click)="openDialog()" *ngIf="routerUrl != '/hanswebapp/dashboard'">Login/Register</button>
+            <button class="btn btn-warning btn-responsive" type="submit" *ngIf="routerUrl != '/hanswebapp/home'" >Logout</button>
+        </form>
+    </nav>
+</header>
+<!-- Navbar end -->
+<router-outlet></router-outlet>
+<div class="footer" *ngIf="routerUrl != '/hanswebapp/dashboard'">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4 style="color:orange">Contact</h4>
+                <p style="color:white">
+                    +91-9697989697<br>
+                    +91-9818215182<br>
+                    matches@hansmatrimony.com
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4 style="color:orange">Follow Us</h4>
+                <i class="fa fa-facebook-official" aria-hidden="true" style="color:white"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true" style="color:white"></i>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4 style="color:orange">Policy Info</h4>
+                <a href="#" class="link-footer">Privacy Policy</a><br>
+                <a href="#" class="link-footer">Terms Of use</a><br>
+                <a href="#" class="link-footer">Cancellation & return</a><br>
+                <a href="#" class="link-footer">FAQ</a>
+            </div>
+        </div>
+    </div>

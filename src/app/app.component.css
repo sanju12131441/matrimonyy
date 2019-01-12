@@ -1,0 +1,26 @@
+.link-footer {
+    text-decoration: none;
+    color: white
+}
+
+.contact-details {
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 1rem
+}
+
+.footer {
+    background-color: #46132B;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        background-color: #46132B;
+    }
+    .btn-responsive {
+        padding:8px 4px;
+        font-size:80%;
+        line-height: 1;
+      }
+}
